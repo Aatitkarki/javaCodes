@@ -1,0 +1,127 @@
+Workshop 5:
+
+Question - 1
+
+1. Create a class "Mathematics" which contains following methods:
+	a. average - to find average of two numbers
+	b. average - to find average of elements of an integer array
+	c. power - to calculate the power of given number
+		example: power (2,5) should calculate 2^5 i.e. 32
+	
+	Optional: add another method isPrime() that returns true if a given number is prime 
+			  else returns false 
+			  
+
+2. Create another class "MathDemo" to test all the methods of Mathematics class.
+
+
+Question - 2 
+
+Problem: Your friend just established a mobile phone shop in Itahari. He wants to store all
+		the details of mobile phones that he owns in a software. But he doesn't have any money to 
+		buy such software. As you are an IT student, you friend requests you to develop a system
+		that has following features:
+
+1. A class "Mobile" which contains following attributes where all attributes are private:
+	a. company name of type String
+	b. mobile name of type String
+	c. model number of type int
+	d. RAM of type byte
+	e. internal storage of type int
+	f. screen size of type double
+	g. total count of sold units of type int
+	h. expandable storage of type boolean
+	
+2. Accessor methods for all attributes (getter method and setter method) 
+	NOTE: do not create setter method for total count.
+	
+3. A method displayDetails() that displays all the details related to that mobile
+   in proper format
+	
+4. Another method isSame() that takes an object of type Mobile as its parameter 
+   and returns true if the model number is same, otherwise return false
+   
+Now, you will have to test your system before giving it to your friend. For doing that
+you have to do the following:
+
+1.  Create another class "MobileDemo" and do the following:
+	a. Create an array of type Mobile that can store the details of at most 30 mobiles.
+	b. Create at least 10 objects of type Mobile and store them in that array.
+
+2. Now, you will need to generate an output for following:
+	a. Display total number of mobile phones that are in the store
+	b. Display the details of all the phones from "Apple" company
+	c. Display the details of all the phones having following configurations:
+		RAM = 4 
+		Internal Storage = 64
+	d. Compare the model number of two phones
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
