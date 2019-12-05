@@ -46,5 +46,18 @@ public class MobileDemo{
         mobiles[i].displayDetails();
         }
     }
-    }
+        System.out.println("Checking if the model is same or not:");
+         System.out.println();
+        for(int i=0;i<10;i++){
+            for(int j=i+1;j<10;j++){
+            boolean test=mobiles[i].isSame(mobiles[j]);
+            if(test==true){
+            System.out.println(mobiles[i].getMobileName()+" has same model number as "+mobiles[j].getMobileName());
+            }else{
+            System.out.println(mobiles[i].getMobileName()+" has not same model number as "+mobiles[j].getMobileName());
+            }
+        }
+        }
+        
+}
 }

@@ -76,12 +76,12 @@ public class Mobile{
         System.out.println();
     }
     
-    public boolean isSame(Mobile mobile){
+    public boolean isSame(Mobile mobiles){
         boolean isSame=false;
-                if(getModelNumber() == mobile.getModelNumber()){
-        isSame=true;
+                if(getModelNumber() == mobiles.getModelNumber()){
+                    isSame=true;
         }
-        return isSame;
+        return isSame;      
     }
 
 }
