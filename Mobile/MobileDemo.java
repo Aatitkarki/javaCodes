@@ -1,11 +1,13 @@
+import java.util.Scanner;
 public class MobileDemo{
     public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
         Mobile mobiles[]=new Mobile [30];
         Mobile s8 = new Mobile("Samsung","s8","SMG950",(byte)4,64,5.8,true);
         
-        Mobile s9 = new Mobile("Samsung","S9+","G960F",(byte)6,64,6.2,true);
+        Mobile s9 = new Mobile("Samsung","s9+","G960F",(byte)6,64,6.2,true);
         
-        Mobile s10 =new Mobile("Samsung","S10","SMG97",(byte)8,128,6.1,true);
+        Mobile s10 =new Mobile("Samsung","s10","SMG97",(byte)8,128,6.1,true);
         
         Mobile iPhone6s =new Mobile("Apple","iPhone 6s","A1633",(byte)2,16,5.5,false);
         
@@ -46,8 +48,32 @@ public class MobileDemo{
         mobiles[i].displayDetails();
         }
     }
-        System.out.println("Checking if the model is same or not:");
-         System.out.println();
+  
+    
+    
+   boolean noExit =true;
+   while(noExit){
+        System.out.println("Enter the name of mobile of which you want to find the details :");
+    System.out.println("If you want to exit the search,type exit");
+    String mName=sc.next();
+    if(mName== "exit"){
+       noExit=false;
+    }
+    
+    for(int i=0;i<10;i++){
+        String mn=mobiles[i].getMobileName();
+    if(mn==mName){
+    mobiles[i].displayDetails();
+    }
+    else {
+    System.out.println(" OOPS ! Could not find the item you searched.");
+}
+    }
+}
+    
+    
+    System.out.println("Checking if the model is same or not:");
+        System.out.println();
         for(int i=0;i<10;i++){
             for(int j=i+1;j<10;j++){
             boolean test=mobiles[i].isSame(mobiles[j]);
