@@ -74,7 +74,7 @@ public class MobileDemo{
 
             for(int i=0;i<10;i++){
                 String mn=mobiles[i].getMobileName();
-                if(mn.equals(mName)){
+                if(mn.equalsIgnoreCase(mName)){
                     mobiles[i].displayDetails();
                     break;
                 }
