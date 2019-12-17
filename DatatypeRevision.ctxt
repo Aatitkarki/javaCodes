@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=DatatypeRevision
+comment0.text=\r\nTotal\ Points\:\ 70\r\nisEven()\ \:\ 10\r\nisDivisible()\ \:\ 10\r\ndivide()\ \:\ 10\r\nisEqual()\ \:\ 20\r\nisPalindrome()\ \:\ 20\r\n
+comment1.params=num
+comment1.target=boolean\ isEven(int)
+comment2.params=num
+comment2.target=boolean\ isDivisible(int)
+comment3.params=a\ b
+comment3.target=int\ divide(int,\ int)
+comment4.params=str1\ str2
+comment4.target=boolean\ isEqual(java.lang.String,\ java.lang.String)
+comment4.text=\ returns\ true\ if\ both\ strings\ are\ same,\ otherwise\ returns\ false\r\n\ \ \ \ NOTE\:\r\n\ \ \ \ APPLE\ is\ not\ equal\ to\ apple\r\n\ \ \ \ DO\ NOT\ USE\ IN-BUILT\ FUNCTIONS\ LIKE\ equals(),\ equalsIgnoreCase()\ or\ comparesTo()\r\n
+comment5.params=str1\ str2
+comment5.target=boolean\ isPalindrome(java.lang.String,\ java.lang.String)
+comment5.text=\ \r\n\ \ \ \ returns\ true\ if\ str1\ and\ str2\ is\ palindrome\r\n\ \ \ \ NOTE\:\ a\ string\ is\ palindrome\ if\ the\ reverse\ of\ the\ string\ is\ same\ as\ the\ original\ string\r\n\ \ \ \ Example\:\ apple\ is\ not\ palindrome,\ nayan\ is\ palindrome\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

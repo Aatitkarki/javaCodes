@@ -1,3 +1,5 @@
+package Mobile;
+
 import java.util.Scanner;
 public class MobileDemo{
     public static void main(String[] args){
