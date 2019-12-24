@@ -1,4 +1,3 @@
-package Mathematics;
 
 import java.util.Scanner;
 public class MathDemo{

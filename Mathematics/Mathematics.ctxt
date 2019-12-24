@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Mathematics
+comment1.params=a\ b
+comment1.target=float\ average(int,\ int)
+comment2.params=array
+comment2.target=float\ average(int[])
+comment3.params=a\ b
+comment3.target=int\ power(int,\ int)
+comment4.params=n
+comment4.target=boolean\ Prime(int)
+numComments=5

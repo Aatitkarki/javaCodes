@@ -1,4 +1,3 @@
-package Mathematics;
 
 public class Mathematics{
 	public float average(int a,int b){
