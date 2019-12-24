@@ -1,5 +1,3 @@
-package Mobile;
-
 public class Mobile{
     private String companyName;
     private String mobileName;
