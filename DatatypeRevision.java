@@ -63,7 +63,7 @@ public class DatatypeRevision {
             while(i<str1.length()){
                 if(str1.charAt(i)==str2.charAt(i)){
                     isEqual=true;
-                }
+                }   
                 else{
                     isEqual=false;
                     break;
