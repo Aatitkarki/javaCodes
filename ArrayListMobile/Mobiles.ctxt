@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Mobiles
+comment1.params=
+comment1.target=Mobiles()
+comment2.params=
+comment2.target=void\ mainFrame()
+comment3.params=
+comment3.target=void\ mainBody()
+comment4.params=
+comment4.target=void\ addingButtons()
+comment5.params=ae
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=ae
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=
+comment7.target=void\ addToList()
+comment8.params=
+comment8.target=void\ displayingMobile()
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+numComments=10
