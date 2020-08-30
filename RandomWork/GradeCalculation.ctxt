@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=GradeCalculation
+comment1.params=
+comment1.target=void\ main()
+comment2.params=marks
+comment2.target=double\ getTotalObtainedMark(double[])
+comment3.params=totalMarks\ totalObtainedMark
+comment3.target=double\ percentFinder(int,\ double)
+comment4.params=percentage
+comment4.target=java.lang.String\ divisionFinder(double)
+comment5.params=percentage
+comment5.target=java.lang.String\ gradeFinder(double)
+numComments=6
